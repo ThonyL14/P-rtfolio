@@ -1,0 +1,132 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.Cor1{
+    background-color: black;
+    color: white;
+    text-align: center;
+    
+}
+
+.Marg{
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.Int{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 0 100px;
+    align-items: center;
+}
+
+h1{
+    background-color: slateblue;
+    color: black;
+    text-align: center;
+}
+
+p{
+    background-color: black;
+    color: white;
+}
+
+.Img1{
+    border-style: solid;
+    border-color: rgb(28, 28, 129);
+    border-width: 5px;
+    height: 200px;
+    width: 200px;
+}
+
+.Img1:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.Img2{
+    border-style: solid;
+    border-color: rgb(28, 28, 129);
+    height: 100px;
+    width: 100px;
+    border-width: 5px;
+    margin-left: 120px;
+    margin-right: 150px;
+    border-radius: 200px;
+    
+}
+.Img2:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+
+.Marg1{
+    margin-left: 120px;
+    margin-right: 350px;
+}
+
+a:link{
+    color: rgb(28, 28, 129);
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    background-color: slateblue;
+    border-radius: 200px;
+}
+
+a:visited{
+    color: darkblue;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    background-color: slateblue;
+    border-radius: 200px;
+}
+
+a:hover{
+    color:red;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    background-color: darkblue;
+    border-radius: 200px;
+}
+
+a:active{
+    color:blueviolet;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    background-color: darkblue;
+    border-radius: 200px;
+}
+
+section nav ul{
+    list-style-type: none;
+}
+
+section nav ul li {
+    display: inline-block;
+    align-items: center;
+}
+
+.Cont{
+    text-align: center;
+
+}
+
